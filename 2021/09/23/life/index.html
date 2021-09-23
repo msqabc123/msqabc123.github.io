@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"msqabc123.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="每一道眼泪，是一万道光">
+  <meta name="description" content="命运多舛的意思的确可以理解为生活让人大喘气啊！">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ife">
+<meta property="og:title" content="life">
 <meta property="og:url" content="https://msqabc123.github.io/2021/09/23/life/index.html">
 <meta property="og:site_name" content="将进酒">
-<meta property="og:description" content="每一道眼泪，是一万道光">
+<meta property="og:description" content="命运多舛的意思的确可以理解为生活让人大喘气啊！">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-09-23T01:34:41.000Z">
-<meta property="article:modified_time" content="2021-09-23T01:35:18.338Z">
+<meta property="article:modified_time" content="2021-09-23T03:04:31.697Z">
 <meta property="article:author" content="牟少强">
 <meta name="twitter:card" content="summary">
 
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>ife | 将进酒</title>
+  <title>life | 将进酒</title>
   
 
 
@@ -180,7 +180,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          ife
+          life
         </h1>
 
         <div class="post-meta">
@@ -191,16 +191,30 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-09-23 09:34:41 / 修改时间：09:35:18" itemprop="dateCreated datePublished" datetime="2021-09-23T09:34:41+08:00">2021-09-23</time>
+              <time title="创建时间：2021-09-23 09:34:41 / 修改时间：11:04:31" itemprop="dateCreated datePublished" datetime="2021-09-23T09:34:41+08:00">2021-09-23</time>
             </span>
 
-          <br>
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/09/23/life/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/09/23/life/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>0</span>
+              <span>23</span>
             </span>
 
         </div>
@@ -212,7 +226,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        
+        <p>命运多舛的意思的确可以理解为生活让人大喘气啊！</p>
+
     </div>
 
     
@@ -247,7 +262,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://msqabc123.github.io/2021/09/23/life/" title="ife">https://msqabc123.github.io/2021/09/23/life/</a>
+    <a href="https://msqabc123.github.io/2021/09/23/life/" title="life">https://msqabc123.github.io/2021/09/23/life/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -280,6 +295,7 @@
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -462,6 +478,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'r9ROmmdijmvIfAEGvov5fFc1-gzGzoHsz',
+      appKey     : 'WBxUjoikhdsGzrSrqcmSrch9',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
   
   
